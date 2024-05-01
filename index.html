@@ -2,14 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Fylo Data Storage Component</title>
 </head>
 
 <body>
-    <h1>Proyecto Base</h1>
+    <main class="main">
+        <div class="all__info">
+            <section class="card__top">
+                <img class="fylo__image" src="./assets/images/logo.svg" alt="" />
+                <div class="icon__container">
+                    <img class="icon icon__document" src="./assets/images/icon-document.svg" alt="" />
+                    <img class="icon icon__folder" src="./assets/images/icon-folder.svg" alt="" />
+                    <img class="icon icon__upload" src="./assets/images/icon-upload.svg" alt="" />
+                </div>
+            </section>
+            <section class="card__bottom">
+                <p class="title">
+                    You've used <span class="bold">815 GB</span> of your storage
+                </p>
+                <div class="loading">
+                    <div class="loading__percent"></div>
+                </div>
+                <div class="info">
+                    <span class="storage bold">0 GB</span>
+                    <span class="storage bold">1000 GB</span>
+                </div>
+            </section>
+        </div>
+        <div class="space__remaining">
+            <span class="bold bottom">185</span>
+            <span class="bold remaining">GB LEFT</span>
+        </div>
+    </main>
 </body>
 
 </html>
